@@ -1,0 +1,170 @@
+*{
+    margin: 0px 70px;
+    font-family: 'Merriweather', serif;
+}
+#header{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)), url(images/donation5.jpg);
+    background-size: cover;
+    height:450px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+  
+}
+#header h1{
+    color: snow;
+    padding: 200px 40px 10px;
+    text-align: center;
+    font-size: 35px;
+
+}
+#header p{
+    color:gold;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px 50px 25px;
+}
+.donate{
+    background-color:crimson;
+    color: snow;
+    font-size: 17px;
+    padding: 8px 20px;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 30%;
+    margin-right: 30%
+}
+.donate:hover{
+    background-color: coral;
+    color: snow;
+    text-decoration: underline;
+}
+#update h1{
+    font-size: 25px;
+    text-align: left;
+    margin:40px 0px 15px;
+    padding: 10px;
+}
+#update p{
+    text-align: left;
+    margin: 0px 5px 15px;
+}
+h2{
+    text-align: center;
+    font-weight:bolder;
+    padding: 10px;
+    margin: 20px;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#amount{
+    display: flex;
+    margin-top: 5px;
+}
+.taka{
+    background-color:rgb(220, 219, 219);
+    color:rgb(78, 78, 78);
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(190, 190, 190);
+    margin:auto;
+    padding: 10px auto;
+    width:20%;
+}
+#amount button{
+    padding: 20px;
+}
+#amount button:hover{
+    background-color:rgb(255, 201, 213);
+    border: 3px solid rgb(219, 87, 113);
+    color: rgb(188, 0, 38);
+}
+#other{
+    display: block;
+    margin: 25px;
+    
+    
+}
+#other input{
+    border: none;
+    border-bottom: 2px solid silver;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15px;
+    text-align: center;
+    color: silver;
+}
+#other .donate{
+    margin-left: 43%;
+    margin-bottom: 60px;
+
+}
+#box{
+    display: flex;
+    padding:20px 30px 20px;
+}
+.one{
+    background-color: lavenderblush;
+    border: 1px solid silver;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 30%;
+}
+.one img{
+    height: auto;
+    width: 50px;
+    margin: 15px 20px 15px;
+}
+.one p{
+    font-size: 13px;
+    color: rgb(55, 55, 55);
+    margin: 15px 20px 15px;
+
+    
+}
+.one h5{
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    margin: 10px 20px 15px;
+}
+#double{
+    display: flex;
+    padding:0px;
+}
+
+.half img{
+    height: auto;
+    width: 400px;
+    margin-top: 30px;
+}
+.half h2, .half p{
+    width: 150%;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+#sub{
+    background-color: rgb(215, 215, 215);
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    border-radius: 2px;
+}
+#sub input{
+    margin: 20px 40px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:aquamarine;
+    color: black;
+    font-size: 12px;
+  }
